@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jquery-dateFormat</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>jquery-dateFormat</name>
     <description>WebJar for jquery-dateFormat</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/jquery-dateFormat</url>
         <connection>scm:git:https://github.com/webjars/jquery-dateFormat.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/jquery-dateFormat.git</developerConnection>
-        <tag>jquery-dateFormat-1.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
