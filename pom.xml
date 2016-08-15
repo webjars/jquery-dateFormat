@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jquery-dateFormat</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.2-1-SNAPSHOT</version>
     <name>jquery-dateFormat</name>
     <description>WebJar for jquery-dateFormat</description>
     <url>http://webjars.org</url>
@@ -84,6 +84,7 @@
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/${project.artifactId}-${upstream.version}/dist" />
                                 </move>
+                                <move todir="${destDir}" file="${project.build.directory}/${project.artifactId}-${upstream.version}/MIT-LICENSE.txt"/>
                             </target>
                         </configuration>
                     </execution>
